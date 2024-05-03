@@ -37,6 +37,7 @@ body {
 
 .header .status {
   height: 12px;
+  user-select: none;
 }
 
 .camera-con {
@@ -70,13 +71,16 @@ body {
 }
 
 .display {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 4rem;
   font-weight: 300;
   text-align: right;
-  margin-bottom: 30px;
-  letter-spacing: -8px;
   margin-right: 5px;
+  height: 110px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  padding-bottom: 20px;
 }
 
 .button-container {
