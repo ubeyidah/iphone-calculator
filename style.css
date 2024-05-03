@@ -133,3 +133,12 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
+
+@media (max-width: 350px) {
+  .calculator {
+    width: 100%;
+    height: 100vh;
+    border-radius: 0;
+    border: none;
+  }
+}
