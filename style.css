@@ -75,6 +75,8 @@ body {
   font-weight: 300;
   text-align: right;
   margin-bottom: 30px;
+  letter-spacing: -8px;
+  margin-right: 5px;
 }
 
 .button-container {
